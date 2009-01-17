@@ -5,7 +5,7 @@
 // @description    little better for google search results
 // @include        http://www.google.*/search*
 // @include        https://www.google.*/search*
-// @version        0.0.05
+// @version        0.0.06 
 // ==/UserScript==
 
 /* 
@@ -47,8 +47,10 @@ function rsChange() {
     }
 
     // width
-    for (var i = 0; i < table.length; i++) {
-        if (table[i].className == '' && table[i].align != 'center') table[i].width='60%';
+    for (var i = 0; i < document.styleSheets[0].cssRules.length; i++) {
+        if (document.styleSheets[0].cssRules[i].cssText == '.s { max-width: 42em; }') {
+          document.styleSheets[0].cssRules[i].style.cssText = 'max-width: 60em;';
+        }
     }
 }
 
