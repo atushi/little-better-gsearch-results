@@ -5,33 +5,18 @@
 // @description    little better for google search results
 // @include        http://www.google.*/search*
 // @include        https://www.google.*/search*
-// @version        0.0.06 
+// @version        0.0.07 
 // ==/UserScript==
 
 /* 
  * Scroll Event
 /*--------------------*/
 var body = document.getElementsByTagName('body')[0];
-var table = body.getElementsByTagName('table');
-var div = body.getElementsByTagName('div');
 var p = body.getElementsByTagName('p');
 this.scroll = function() { rsChange(); }
 window.addEventListener('scroll', this.scroll, false);
 var lastPage = '';
 function rsChange() {
-    // navbar
-    if (div) {
-        lastNavbar = 0;
-        for (var i = 0; i < div.length; i++) {
-            if (div[i].id == 'navbar') lastNavbar = i;
-        }
-        // set last navbar
-        if (lastNavbar > 0) div[lastNavbar].id = 'lastnavbar';
-    }
-    // delete navbar
-    div = document.getElementById('navbar');
-    if (div) div.parentNode.removeChild(div);
-
     // add page id
     if (p) {
         for (var i = 0; i < p.length; i++) {
