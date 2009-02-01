@@ -5,7 +5,7 @@
 // @description    little better for google search results
 // @include        http://www.google.*/search*
 // @include        https://www.google.*/search*
-// @version        0.0.07 
+// @version        0.0.08 
 // ==/UserScript==
 
 /* 
@@ -33,10 +33,13 @@ function rsChange() {
 
     // width
     for (var i = 0; i < document.styleSheets[0].cssRules.length; i++) {
-        if (document.styleSheets[0].cssRules[i].cssText == '.s { max-width: 42em; }') {
-          document.styleSheets[0].cssRules[i].style.cssText = 'max-width: 60em;';
+        if (document.styleSheets[0].cssRules[i].cssText.indexOf('.s') != -1
+         && document.styleSheets[0].cssRules[i].cssText.indexOf('max-width') != -1
+         && document.styleSheets[0].cssRules[i].cssText.indexOf('42em') != -1) {
+          document.styleSheets[0].cssRules[i].style.cssText =  document.styleSheets[0].cssRules[i].style.cssText.replace('42','60');
         }
-    }
+    }    
+
 }
 
 /* 
