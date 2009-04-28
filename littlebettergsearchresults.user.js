@@ -71,6 +71,7 @@ function rsChange() {
 /* 
  * Key Down Event
 /*--------------------*/
+var idKey = '';
 window.addEventListener('keydown', function(e) { event((e.keyCode) ? e.keyCode : e.charCode); }, false);
 function event(keyCode) {
 
