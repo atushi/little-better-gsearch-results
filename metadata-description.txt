@@ -1,0 +1,70 @@
+<hr>
+<b>1) Text below the title</b> is easy to see a little.<br>
+<br>
+<div>
+ <b>before</b>
+</div>
+<div>
+ <a href="http://picasaweb.google.com/atushi.yamazaki/LittleBetterGSearchResults/photo#5164944511942436994"><img src="http://lh3.google.com/atushi.yamazaki/R62RqybuqII/AAAAAAAAA3c/rBWVYfNRMQU/s400/littlebettergsearchresul_off.png" /></a>
+<br>
+</div>
+<div>
+ <br>
+ <b>after</b>
+</div>
+<div>
+ <a href="http://picasaweb.google.com/atushi.yamazaki/LittleBetterGSearchResults/photo#5164944511942437010"><img src="http://lh3.google.com/atushi.yamazaki/R62RqybuqJI/AAAAAAAAA3k/iI4k2hD5oQA/s400/littlebettergsearchresul_on.png" /></a>
+</div>
+
+<div>
+<br>
+<hr>
+<b>2) this script supported to <a href="http://userscripts.org/scripts/show/8551">AutoPagerize</a>!</b>
+</div>
+<div>
+<a href="http://picasaweb.google.com/atushi.yamazaki/LittleBetterGSearchResults/photo#5175113374535498114"><img src="http://lh6.google.com/atushi.yamazaki/R9GyMfmPuYI/AAAAAAAAA5M/PIFQhP9G1BI/s400/littlebettergsearchresul_ver0.0.03.png" /></a>
+</div>
+
+<div>
+<br>
+<hr>
+<b>3) The shortcut key that can be used in
+ <a href="http://userscripts.org/scripts/show/8551">AutoPagerize</a> is enabled to be used in various page.</b><br>
+ <br>
+ ・<b>shortcut key </b><br>
+ 1p => (page: 1) <br>
+ 2p => page: 2 <br>
+ ... <br>
+ lp => last page <br>
+</div>
+
+<div>
+<br>
+<hr>
+<b>4) If you use this shortcut, you can change the width</b><br>
+ <br>
+ ・<b>shortcut key </b><br>
+ 80w => 80em <br>
+<div>
+<a href="http://picasaweb.google.com/lh/photo/hJcNFpZHMID1bg94ytC7RA?feat=embedwebsite"><img src="http://lh5.ggpht.com/_895SLocKaug/SfdVkVps0GI/AAAAAAAABaE/mLKjyUjf4Cw/s800/LittleBetterGSearchResults-Safari80%25-edit.png" /></a>
+</div>
+ ... <br>
+ 60w => 60em (default)<br>
+<div>
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/atLGQ_1WnSGcGlBQSmbf3Q?feat=embedwebsite"><img src="http://lh6.ggpht.com/_895SLocKaug/SfdVkW09geI/AAAAAAAABZ8/laZFg_F6sS4/s800/LittleBetterGSearchResults-Safari60%25-edit.png" /></a></div>
+ ... <br>
+ 10w => 10em <br>
+<div>
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/65I4uFH01Vay8t8oxpu61w?feat=embedwebsite"><img src="http://lh6.ggpht.com/_895SLocKaug/SfdVkDg2MHI/AAAAAAAABZ0/4Z8SaGI5-MI/s800/LittleBetterGSearchResults-Safari20%25-edit.png" /></a>
+</div>
+ ... <br>
+</div>
+
+<div>
+<br>
+<hr>
+<b>5) Support</b>
+</div>
+<div>
+FireFox, Opera, Safari 
+</div>
